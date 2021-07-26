@@ -7,7 +7,7 @@ if (x == false){ x = confirm('Please press OK to answer the question');
  if (x == true){
 
 let name =prompt('What is your name?')
-alert('Wellcome to me site '+name)     ;
+alert('Wellcome to my site '+name)     ;
 let q1 = prompt('Do you like wild?').toLocaleUpperCase();
 let q2 = prompt('What about lions love it ?').toLocaleUpperCase();
 let q3 = prompt('Do you know the maximum running speed fo it ?').toLocaleUpperCase();
