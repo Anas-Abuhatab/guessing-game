@@ -9,11 +9,11 @@ if (x === true){
 
   let name =prompt('What is your name?');
   alert('Wellcome to my site '+name);
-  let q1 = prompt('Q1: Do you like wild?').toLocaleUpperCase();
-  let q2 = prompt('Q2: What about lions love it ?').toLocaleUpperCase();
-  let q3 = prompt('Q3: Do you know the maximum running speed fo it ?').toLocaleUpperCase();
-  let q4 = prompt('Q4: lions prefers eat crocodile ? ').toLocaleUpperCase();
-  let q5 = prompt('Q5: Do you like another animal ?').toLocaleUpperCase();
+  let q1 = prompt('Q1: Did yoy know my name?').toLocaleUpperCase();
+  let q2 = prompt('Q2: What about my age ?').toLocaleUpperCase();
+  let q3 = prompt('Q3: Do you know wich month i was born ?').toLocaleUpperCase();
+  let q4 = prompt('Q4: Do you know what is my favourite animal ? ').toLocaleUpperCase();
+  let q5 = prompt('Q5: Do you know what animal i raised in my house ?').toLocaleUpperCase();
   for( l=4; l >= 1 ; l--)
   { let gnumperQ1 = Number(prompt('Guessing the noumber of KG that Gorilla can hold '));
     if (gnumperQ1 > 2000) {alert('too high *hint : its between 1500 & 2100');}
@@ -28,42 +28,42 @@ if (x === true){
   }
   switch(q1){
   case 'N':
-  case 'NO': a='If you dont like wild this is your decision ';
+  case 'NO': a=' I am Anas ';
     break;
   case 'Y':
-  case 'YES':b=' Also me like wild so much ';correct =correct +1;
+  case 'YES':b=' Anas Abuhatab ';correct =correct +1;
     break;
   }
   switch(q2){
   case 'N':
-  case 'NO': c='why you dont love lione it the king ';
+  case 'NO': c='I have 24 year ';
     break;
   case 'Y':
-  case 'YES':d=' sure we all love lion ';correct =correct +1 ;
+  case 'YES':d=' born in 1996 ';correct =correct +1 ;
     break;
   }
   switch(q3){
   case 'N':
-  case 'NO': e=' it is 80 km/h ';
+  case 'NO': e=' it is 8  ';
     break;
   case 'Y':
-  case 'YES':f=' yes it is 80 km/h ';correct =correct +1;
+  case 'YES':f=' yes Augest ';correct =correct +1;
     break;
   }
   switch(q4){
   case 'N':
-  case 'NO': g=' ^_^ He does not like the taste of a crocodile but eats anything when he is hungry  ';correct =correct +1;
+  case 'NO': g=' ^_^ I love the lion  ';
     break;
   case 'Y':
-  case 'YES':h=' ^_^ He does not like the taste of a crocodile but eats anything when he is hungry  ';
+  case 'YES':h=' ^_^ How did you know i love the lion   ';correct =correct +1;
     break;
   }
   switch(q5){
   case 'NO' :
-  case 'N': i=' Tiger is beautiful also ';
+  case 'N': i=' Lion' ,'Tiger' ,'Gorilla' ,'Ant ';
     break;
   case 'Y':
-  case 'YES':j=' Tiger is beautiful also ';correct =correct +1;
+  case 'YES':j=' Their is the strongest animal ';correct =correct +1;
     break;
   }
   score =correct +l+s;
