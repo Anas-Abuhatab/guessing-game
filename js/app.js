@@ -1,14 +1,12 @@
 'use strict';
-
 let a,b,c,d,e,f,g,h,i,j,w,filtered,s,l,score ,correct,q1,q2,q3,q4,q5,q0 ,gnumperQ1,gnumperQ2,strongest,x;
 correct=0;
-keys();
-key1();
-key2();
 function keys() {
   x = confirm('Please answer YES or NO at the 5 next questions and the 2 Guessing-game questions =)');}
+keys();
 function key1() {
   if (x === false){ x = confirm('Please press OK to answer the question');}}
+key1();
 function key2() {
   if (x === true){
     q0 =prompt('What is your name?');
@@ -20,7 +18,6 @@ function key2() {
     q5 = prompt('Q5: Do you know what animal i raised in my house ?').toLocaleUpperCase();
     for( l=4; l >= 1 ; l--)
     {
-
       gnumperQ1 = Number(prompt('Guessing the noumber of KG that Gorilla can hold '));
       if (gnumperQ1 > 2000) {alert('too high *hint : its between 1500 & 2100');}
       else if(gnumperQ1 < 2000){alert('too low *hint : its between 1500 & 2100');}
@@ -34,8 +31,8 @@ function key2() {
       else if(strongest !== gnumperQ2[0]){alert('Please try again');}
     }}
   else {alert('Buy');}}
+key2();
 function relay() {
-
   switch(q1){
   case 'N':
   case 'NO': a=' I am Anas ';
